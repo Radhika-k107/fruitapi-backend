@@ -27,7 +27,8 @@ SECRET_KEY = 'django-insecure-r_5)*fu_xk=(^us4!@90taw7$q^37xdv&4z^v(=#t)tuuary$g
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["https://fruitapi-backend-production.up.railway.app/"]
+ALLOWED_HOSTS = ['fruitapi-backend-production.up.railway.app', '127.0.0.1', 'localhost']
+
 
 
 # Application definition
@@ -63,7 +64,7 @@ CORS_ALLOWED_ORIGINS = [
 CORS_ALLOW_ALL_ORIGINS = True  # for development only
 
 
-ALLOWED_HOSTS = ['your-backend-production.up.railway.app', 'localhost', '127.0.0.1']
+
 
 ROOT_URLCONF = 'myapi.urls'
 
