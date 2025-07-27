@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-r_5)*fu_xk=(^us4!@90taw7$q^37xdv&4z^v(=#t)tuuary$g
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['fruitapi-backend-production.up.railway.app', '127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['https://fruitapi-backend-production.up.railway.app/api/apiapp/','https://fruit-api-frontend.vercel.app/' ,'127.0.0.1', 'localhost']
 
 
 
